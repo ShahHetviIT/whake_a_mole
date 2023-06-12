@@ -21,7 +21,7 @@ function popupRandomMole() {
   // Set a timer to hide the mole after a certain duration (e.g., 1 second)
   setTimeout(() => {
     randomMole.classList.remove("popped-up");
-  }, 700);
+  }, 750);
 }
 let startButton = document.querySelector(".startbtn");
 var audio = document.getElementById("backgroundMusic");
@@ -33,7 +33,7 @@ function startGame() {
   blure.classList.remove("blure_body");
   score.innerHTML = "0";
   let duration = 20000; // 20 seconds
-  let interval = 800; // 1 second
+  let interval = 750; // 1 second
 
   timer = setInterval(popupRandomMole, interval);
 
